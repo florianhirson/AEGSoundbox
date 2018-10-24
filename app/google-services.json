@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "831819158359",
+    "firebase_url": "https://aeg-soundbox.firebaseio.com",
+    "project_id": "aeg-soundbox",
+    "storage_bucket": "aeg-soundbox.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:831819158359:android:e127371040cf7600",
+        "android_client_info": {
+          "package_name": "baguette.mc.french.aegsoundbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "831819158359-kh54kqqeob35njjbmd9tj7h290aacp00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "baguette.mc.french.aegsoundbox",
+            "certificate_hash": "9f23039adfb9437355c922d781990106aa35dbad"
+          }
+        },
+        {
+          "client_id": "831819158359-rrl0pu364ae1cp5969t60fq7bdoljaji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcps96LHpc-xgNS37S2jYDHKkizFxAgMs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "831819158359-rrl0pu364ae1cp5969t60fq7bdoljaji.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

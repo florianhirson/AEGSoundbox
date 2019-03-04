@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Soundboard, Jay</string>
+    <string name="app_name">AEG Soundboard</string>
     <string name="fav_desc">Icon with full heart</string>
     <string name="not_fav_desc">Icon with empty heart</string>
 </resources>

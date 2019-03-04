@@ -10,6 +10,7 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import com.bumptech.glide.Glide;
 import de.greenrobot.event.EventBus;
 
 import java.util.ArrayList;
@@ -95,7 +96,7 @@ public class SoundAdapter extends RecyclerView.Adapter<SoundAdapter.ViewHolder> 
             }
         });
 
-        GlideApp.with(context)
+        Glide.with(context)
                 .load(sounds.get(position).getPictureId())
                 .centerCrop()
                 .into(holder.imageView);

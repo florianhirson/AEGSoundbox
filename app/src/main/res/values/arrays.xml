@@ -3,28 +3,8 @@
     <string-array name="labels">
         <item>NEJ</item>
         <item>Good ol fashion cola</item>
-        <item>That Thing is Big, Jay</item>
-        <item>That Thing Looks Hurt, Jay</item>
-        <item>HOLY SHIT LOOK AT THIS FUCKIN THING</item>
-        <item>OH MY GAWD WTF IS THAT BRO?!</item>
-        <item>WE SEEIN SOME SHIT WE AIN\'T NEVA SEEN BEFORE KID</item>
-        <item>Oh My Gawd That Thing Looks Dead, Man</item>
-        <item>We Gotta Call the Aquarium or Somethin</item>
-        <item>Holy Shit! What the Fuck IS That?</item>
-        <item>WHAT THE FUCK IS THAT, KID.</item>
-        <item>Let\'s Hook It!</item>
-        <item>WHAT IS THAT FUCKIN THING??</item>
-        <item>HOLY SHIT!</item>
-        <item>We Can Get Some Big Money For That</item>
-        <item>We\'ll Be On The Fuckin News, Man</item>
-        <item>THAT\'S A TOONA BRO</item>
-        <item>JAY THAT\'S A TOONA OR SOMETHIN</item>
-        <item>LOOK AT THAT FACKIN THING!!!</item>
-        <item>OH MY GAAAWD!!!</item>
-        <item>We Need Fuckin Help Buddy</item>
-        <item>That Is Still Good Meat On That Fuckin Fish Jay</item>
-        <item>Am I Lyin\'??</item>
-        <item>Are You Shittin Me? That\'s the Hook You Come?</item>
+        <item>HOW IS THAT A MISS</item>
+        <item>Steady, steady…</item>
     </string-array>
 
     <integer-array name="ids">
@@ -32,26 +12,6 @@
         <item>@raw/r02babywheel</item>
         <item>@raw/r03whatisthatthing</item>
         <item>@raw/r04hurtinbro</item>
-        <item>@raw/r05holyshitlookatthisfuckinthing</item>
-        <item>@raw/r06omgwtfisthatbro</item>
-        <item>@raw/r07weseeinsomeshitweaintnevaseenbeforekid</item>
-        <item>@raw/r08omgthatthinglooksdeadman</item>
-        <item>@raw/r09wegottacalltheaquarium</item>
-        <item>@raw/r10holyshitwtfisthat</item>
-        <item>@raw/r11wtfisthatkid</item>
-        <item>@raw/r12letshookit</item>
-        <item>@raw/r13whatisthatfuckinthing</item>
-        <item>@raw/r14holyshit</item>
-        <item>@raw/r15wecangetsomebigmoneyforthat</item>
-        <item>@raw/r16beonthenewsman</item>
-        <item>@raw/r17thatsatunabro</item>
-        <item>@raw/r18jaythatsatunaorsomethin</item>
-        <item>@raw/r19lookatthatfuckinthing</item>
-        <item>@raw/r20omg</item>
-        <item>@raw/r21weneedfuckinhelpbuddy</item>
-        <item>@raw/r22stillgoodmeat</item>
-        <item>@raw/r23amilyin</item>
-        <item>@raw/r24thatsthehookyoucome</item>
     </integer-array>
 
     <integer-array name="pictureIds">
@@ -59,26 +19,5 @@
         <item>@mipmap/ic_cola</item>
         <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
-
     </integer-array>
 </resources>

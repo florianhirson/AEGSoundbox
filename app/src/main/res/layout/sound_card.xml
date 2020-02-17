@@ -23,7 +23,7 @@
             android:layout_alignParentTop="true"
             android:contentDescription="zzq"
             android:scaleType="centerCrop"
-            app:srcCompat="@mipmap/ic_nej" />
+            app:srcCompat="@mipmap/ic_cucumber" />
 
         <ImageButton
             android:id="@+id/fav_button"
@@ -40,8 +40,9 @@
         <TextView
             android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_centerVertical="true"
+
             android:layout_below="@+id/imageView"
             android:layout_toEndOf="@id/fav_button"
             android:textColor="@android:color/white"

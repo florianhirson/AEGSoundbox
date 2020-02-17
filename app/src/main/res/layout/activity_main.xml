@@ -1,31 +1,47 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/colorPrimary"
-        android:minHeight="?android:attr/actionBarSize">
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?android:attr/actionBarSize">
 
         <android.support.v7.widget.SwitchCompat
-            android:id="@+id/fav_switch"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="right|end"
-            android:layout_marginEnd="16dp"
-            android:layout_marginRight="16dp"
-            android:text="Favs Only  "
-            android:background="@null"
-            android:textAppearance="?attr/actionMenuTextAppearance"
-            android:layout_centerVertical="true"/>
+                android:id="@+id/fav_switch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="right|end"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Favs Only  "
+                android:background="@null"
+                android:textAppearance="?attr/actionMenuTextAppearance"
+                android:layout_centerVertical="true"/>
     </android.support.v7.widget.Toolbar>
 
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/grid_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           />
+
+    <com.futuremind.recyclerviewfastscroll.FastScroller
+            android:id="@+id/fastscroll"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:fastscroll__handleColor="#8f93d1"
+            app:fastscroll__bubbleColor="#5e64ce"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
 </LinearLayout>

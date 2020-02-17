@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="labels">
-        <item>absltybalanced</item>
         <item>absolutelybalanced</item>
         <item>achmygod</item>
         <item>advancedskills</item>
@@ -16,7 +15,6 @@
         <item>alotofdamage</item>
         <item>ammorack</item>
         <item>ammoracked</item>
-        <item>ammorackk</item>
         <item>ammorackofc</item>
         <item>amorack_pls</item>
         <item>anditsquicker</item>
@@ -503,7 +501,6 @@
     </string-array>
 
     <integer-array name="ids">
-        <item>@raw/absltybalanced</item>
         <item>@raw/absolutelybalanced</item>
         <item>@raw/achmygod</item>
         <item>@raw/advancedskills</item>
@@ -518,7 +515,6 @@
         <item>@raw/alotofdamage</item>
         <item>@raw/ammorack</item>
         <item>@raw/ammoracked</item>
-        <item>@raw/ammorackk</item>
         <item>@raw/ammorackofc</item>
         <item>@raw/amorack_pls</item>
         <item>@raw/anditsquicker</item>
@@ -1005,8 +1001,6 @@
     </integer-array>
 
     <integer-array name="pictureIds">
-        <item>@mipmap/ic_cucumber</item>
-        <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>

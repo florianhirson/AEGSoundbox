@@ -1,14 +1,14 @@
 package baguette.mc.french.aegsoundbox
 
 import android.content.Context
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.RecyclerView
 import android.support.v7.widget.StaggeredGridLayoutManager
 import android.support.v7.widget.SwitchCompat
 import android.support.v7.widget.Toolbar
 import android.view.View
-import android.widget.CompoundButton
+import com.futuremind.recyclerviewfastscroll.FastScroller
 
 class MainActivity : AppCompatActivity() {
 
@@ -32,8 +32,11 @@ class MainActivity : AppCompatActivity() {
         )
         grid.adapter = SoundAdapter(SoundStore.getAllSounds(this), this@MainActivity)
 
+        val fastScroller = findViewById<View>(R.id.fastscroll) as FastScroller
+        fastScroller.setRecyclerView(grid)
+
         val favSwitch = findViewById<View>(R.id.fav_switch) as SwitchCompat
-        favSwitch.isChecked = FavStore.getInstance().getShowFavorites()
+        favSwitch.isChecked = FavStore.instance?.showFavorites!!
         if (favSwitch.isChecked) {
             (grid.adapter as SoundAdapter).onlyShowFavorites()
         } else {
@@ -45,7 +48,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 (grid.adapter as SoundAdapter).showAllSounds(this@MainActivity)
             }
-            FavStore.getInstance().setShowFavorites(isChecked)
+            FavStore.instance?.showFavorites = isChecked
         }
     }
 

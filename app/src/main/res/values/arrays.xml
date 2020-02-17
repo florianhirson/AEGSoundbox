@@ -52,7 +52,6 @@
         <item>christsake</item>
         <item>clapping_sound_effects</item>
         <item>cmon</item>
-        <item>cod</item>
         <item>comehereboy</item>
         <item>comeon</item>
         <item>comeonboys</item>
@@ -552,7 +551,6 @@
         <item>@raw/christsake</item>
         <item>@raw/clapping_sound_effects</item>
         <item>@raw/cmon</item>
-        <item>@raw/cod</item>
         <item>@raw/comehereboy</item>
         <item>@raw/comeon</item>
         <item>@raw/comeonboys</item>
@@ -1001,7 +999,6 @@
     </integer-array>
 
     <integer-array name="pictureIds">
-        <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>
         <item>@mipmap/ic_cucumber</item>

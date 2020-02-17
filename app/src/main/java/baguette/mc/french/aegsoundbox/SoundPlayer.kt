@@ -19,12 +19,15 @@ import android.content.Context
 import android.media.MediaPlayer
 import android.util.Log
 import org.greenrobot.eventbus.EventBus
+import org.greenrobot.eventbus.Subscribe
+import org.greenrobot.eventbus.ThreadMode
 import java.io.IOException
 
 class SoundPlayer(context: Context) {
     private var mPlayer: MediaPlayer? = null
     private val mContext: Context
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
     fun onEvent(sound: Sound) {
         playSound(sound)
     }

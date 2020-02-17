@@ -30,23 +30,24 @@ class MainActivity : AppCompatActivity() {
             resources.getInteger(R.integer.num_cols),
             StaggeredGridLayoutManager.VERTICAL
         )
-        grid.adapter = SoundAdapter(SoundStore.getAllSounds(this), this@MainActivity)
+        grid.adapter = SoundAdapterK(SoundStore.getAllSounds(this), this@MainActivity)
 
         val fastScroller = findViewById<View>(R.id.fastscroll) as FastScroller
         fastScroller.setRecyclerView(grid)
 
         val favSwitch = findViewById<View>(R.id.fav_switch) as SwitchCompat
         favSwitch.isChecked = FavStore.instance?.showFavorites!!
+
         if (favSwitch.isChecked) {
-            (grid.adapter as SoundAdapter).onlyShowFavorites()
+            (grid.adapter as SoundAdapterK).onlyShowFavorites()
         } else {
-            (grid.adapter as SoundAdapter).showAllSounds(this@MainActivity)
+            (grid.adapter as SoundAdapterK).showAllSounds(this@MainActivity)
         }
         favSwitch.setOnCheckedChangeListener { buttonView, isChecked ->
             if (isChecked) {
-                (grid.adapter as SoundAdapter).onlyShowFavorites()
+                (grid.adapter as SoundAdapterK).onlyShowFavorites()
             } else {
-                (grid.adapter as SoundAdapter).showAllSounds(this@MainActivity)
+                (grid.adapter as SoundAdapterK).showAllSounds(this@MainActivity)
             }
             FavStore.instance?.showFavorites = isChecked
         }

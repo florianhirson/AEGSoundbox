@@ -18,7 +18,7 @@ package baguette.mc.french.aegsoundbox
 import android.content.Context
 import android.media.MediaPlayer
 import android.util.Log
-import de.greenrobot.event.EventBus
+import org.greenrobot.eventbus.EventBus
 import java.io.IOException
 
 class SoundPlayer(context: Context) {

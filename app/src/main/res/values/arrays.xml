@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <array name="sounds">
+
+    </array>
     <string-array name="labels">
         <item>absolutelybalanced</item>
         <item>achmygod</item>

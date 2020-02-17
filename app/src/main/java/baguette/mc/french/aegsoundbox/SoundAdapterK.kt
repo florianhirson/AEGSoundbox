@@ -4,21 +4,16 @@ import android.content.Context
 
 import android.graphics.Color
 
-import android.support.v7.widget.CardView
+import androidx.cardview.widget.CardView
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 
 import android.view.LayoutInflater
 
 import android.view.View
 
 import android.view.ViewGroup
-
-import android.widget.ImageButton
-
-import android.widget.ImageView
-
-import android.widget.TextView
+import android.widget.*
 
 import com.bumptech.glide.Glide
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
@@ -27,9 +22,13 @@ import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
 
 
-class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :RecyclerView.Adapter<SoundAdapterK.ViewHolder>(),
-    SectionTitleProvider {
+class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
+    androidx.recyclerview.widget.RecyclerView.Adapter<SoundAdapterK.ViewHolder>(),
+    SectionTitleProvider, Filterable {
+
+
     private var sounds:ArrayList<Sound>
+    private val soundstFiltered: ArrayList<Sound>? = null
     private var shouldShowFavsOnly = false
     private var context:Context
 
@@ -116,7 +115,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :RecyclerView
             .centerCrop()
             .into(holder.imageView)
     }
-    class ViewHolder(v:View):RecyclerView.ViewHolder(v) {
+    class ViewHolder(v:View): androidx.recyclerview.widget.RecyclerView.ViewHolder(v) {
         var title:TextView = v.findViewById(R.id.title) as TextView
         var favButton:ImageButton = v.findViewById(R.id.fav_button) as ImageButton
         var imageView:ImageView = v.findViewById(R.id.imageView) as ImageView
@@ -125,12 +124,12 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :RecyclerView
             accentColor = itemView.context.resources.getColor(R.color.colorAccent)
         }
         fun setNormalColors() {
-            (itemView as CardView).setCardBackgroundColor(accentColor)
+            (itemView as androidx.cardview.widget.CardView).setCardBackgroundColor(accentColor)
             title.setTextColor(Color.WHITE)
             favButton.clearColorFilter()
         }
         fun setPlayingColors() {
-            (itemView as CardView).setCardBackgroundColor(Color.WHITE)
+            (itemView as androidx.cardview.widget.CardView).setCardBackgroundColor(Color.WHITE)
             title.setTextColor(accentColor)
             favButton.setColorFilter(accentColor)
         }
@@ -139,5 +138,38 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :RecyclerView
     override fun getSectionTitle(position: Int): String {
         //this String will be shown in a bubble for specified position
         return getItem(position).substring(0, 1)
+    }
+
+    override fun getFilter(): Filter {
+        return object : Filter() {
+            override fun performFiltering(charSequence: CharSequence): FilterResults {
+                val charString = charSequence.toString()
+                if (charString.isEmpty()) {
+                    sounds = SoundStore.getAllSounds(context)
+                } else {
+                    val filteredList = ArrayList<Sound>()
+                    for (sound in sounds) {
+
+                        // name match condition. this might differ depending on your requirement
+                        // here we are looking for name or phone number match
+                        if (sound.name.toLowerCase().contains(charString.toLowerCase())
+                        ) {
+                            filteredList.add(sound)
+                        }
+                    }
+
+                    sounds = filteredList
+                }
+
+                val filterResults = FilterResults()
+                filterResults.values = sounds
+                return filterResults
+            }
+
+            override fun publishResults(charSequence: CharSequence, filterResults: FilterResults) {
+                sounds = filterResults.values as ArrayList<Sound>
+                notifyDataSetChanged()
+            }
+        }
     }
 }

@@ -4,31 +4,52 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:minHeight="?android:attr/actionBarSize">
 
-        <android.support.v7.widget.SwitchCompat
-                android:id="@+id/fav_switch"
+        <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="right|end"
+                android:orientation="horizontal">
+
+            <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Search sounds by name"
+                    android:layout_weight="3"
+                    app:endIconMode="clear_text">
+
+                <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txtSearchSounds"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/fav_switch"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
                 android:layout_marginEnd="16dp"
                 android:layout_marginRight="16dp"
                 android:text="Favs Only  "
                 android:background="@null"
                 android:textAppearance="?attr/actionMenuTextAppearance"
-                android:layout_centerVertical="true"/>
-    </android.support.v7.widget.Toolbar>
+                android:layout_gravity="center"
+                android:layout_weight="2"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
 
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView
+    <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/grid_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

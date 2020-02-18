@@ -1,0 +1,2972 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="absolutelybalanced">
+        <item>absolutelybalanced</item>
+        <item>@raw/absolutelybalanced</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="achmygod">
+        <item>achmygod</item>
+        <item>@raw/achmygod</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="advancedskills">
+        <item>advancedskills</item>
+        <item>@raw/advancedskills</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ah_shit_here_we_go_again">
+        <item>ah_shit_here_we_go_again</item>
+        <item>@raw/ah_shit_here_we_go_again</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ahah">
+        <item>ahah</item>
+        <item>@raw/ahah</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ahhh">
+        <item>ahhh</item>
+        <item>@raw/ahhh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ahshit">
+        <item>ahshit</item>
+        <item>@raw/ahshit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ahthisisjuiciy">
+        <item>ahthisisjuiciy</item>
+        <item>@raw/ahthisisjuiciy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="aiiiiim">
+        <item>aiiiiim</item>
+        <item>@raw/aiiiiim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="aimtime">
+        <item>aimtime</item>
+        <item>@raw/aimtime</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="aimtimeee">
+        <item>aimtimeee</item>
+        <item>@raw/aimtimeee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="alotofdamage">
+        <item>alotofdamage</item>
+        <item>@raw/alotofdamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ammorack">
+        <item>ammorack</item>
+        <item>@raw/ammorack</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ammoracked">
+        <item>ammoracked</item>
+        <item>@raw/ammoracked</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ammorackofc">
+        <item>ammorackofc</item>
+        <item>@raw/ammorackofc</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="amorack_pls">
+        <item>amorack_pls</item>
+        <item>@raw/amorack_pls</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="anditsquicker">
+        <item>anditsquicker</item>
+        <item>@raw/anditsquicker</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="andmy_driver">
+        <item>andmy_driver</item>
+        <item>@raw/andmy_driver</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="andmyloader">
+        <item>andmyloader</item>
+        <item>@raw/andmyloader</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="anythingelse">
+        <item>anythingelse</item>
+        <item>@raw/anythingelse</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="areadydead">
+        <item>areadydead</item>
+        <item>@raw/areadydead</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="areuserious">
+        <item>areuserious</item>
+        <item>@raw/areuserious</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="argh">
+        <item>argh</item>
+        <item>@raw/argh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="arhwego">
+        <item>arhwego</item>
+        <item>@raw/arhwego</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="awesome">
+        <item>awesome</item>
+        <item>@raw/awesome</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="baam">
+        <item>baam</item>
+        <item>@raw/baam</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="backwithbalance">
+        <item>backwithbalance</item>
+        <item>@raw/backwithbalance</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="badumtss">
+        <item>badumtss</item>
+        <item>@raw/badumtss</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="bahhbitch">
+        <item>bahhbitch</item>
+        <item>@raw/bahhbitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="balancebitch">
+        <item>balancebitch</item>
+        <item>@raw/balancebitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="balansz">
+        <item>balansz</item>
+        <item>@raw/balansz</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="baoomhah">
+        <item>baoomhah</item>
+        <item>@raw/baoomhah</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="bitch">
+        <item>bitch</item>
+        <item>@raw/bitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="bitchburn">
+        <item>bitchburn</item>
+        <item>@raw/bitchburn</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="bitchh">
+        <item>bitchh</item>
+        <item>@raw/bitchh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="bounce">
+        <item>bounce</item>
+        <item>@raw/bounce</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="brake">
+        <item>brake</item>
+        <item>@raw/brake</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="bruh">
+        <item>bruh</item>
+        <item>@raw/bruh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="burnbabyburn">
+        <item>burnbabyburn</item>
+        <item>@raw/burnbabyburn</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="burnbitch">
+        <item>burnbitch</item>
+        <item>@raw/burnbitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="byesir">
+        <item>byesir</item>
+        <item>@raw/byesir</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="calculated">
+        <item>calculated</item>
+        <item>@raw/calculated</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="caneveryonehearme">
+        <item>caneveryonehearme</item>
+        <item>@raw/caneveryonehearme</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="cantbelievet">
+        <item>cantbelievet</item>
+        <item>@raw/cantbelievet</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="canthearyou">
+        <item>canthearyou</item>
+        <item>@raw/canthearyou</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="cantshootback">
+        <item>cantshootback</item>
+        <item>@raw/cantshootback</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="carrypants">
+        <item>carrypants</item>
+        <item>@raw/carrypants</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="chargee">
+        <item>chargee</item>
+        <item>@raw/chargee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="christsake">
+        <item>christsake</item>
+        <item>@raw/christsake</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="clapping_sound_effects">
+        <item>clapping_sound_effects</item>
+        <item>@raw/clapping_sound_effects</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="cmon">
+        <item>cmon</item>
+        <item>@raw/cmon</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comehereboy">
+        <item>comehereboy</item>
+        <item>@raw/comehereboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comeon">
+        <item>comeon</item>
+        <item>@raw/comeon</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comeonboys">
+        <item>comeonboys</item>
+        <item>@raw/comeonboys</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comeonkeepgoing">
+        <item>comeonkeepgoing</item>
+        <item>@raw/comeonkeepgoing</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comeonn">
+        <item>comeonn</item>
+        <item>@raw/comeonn</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comeononemore">
+        <item>comeononemore</item>
+        <item>@raw/comeononemore</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="comewithme">
+        <item>comewithme</item>
+        <item>@raw/comewithme</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="commander">
+        <item>commander</item>
+        <item>@raw/commander</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="completelybalanced">
+        <item>completelybalanced</item>
+        <item>@raw/completelybalanced</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="completelyfucked">
+        <item>completelyfucked</item>
+        <item>@raw/completelyfucked</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="coulditbe">
+        <item>coulditbe</item>
+        <item>@raw/coulditbe</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="critdmgobviously">
+        <item>critdmgobviously</item>
+        <item>@raw/critdmgobviously</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="cry">
+        <item>cry</item>
+        <item>@raw/cry</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="da_comrade">
+        <item>da_comrade</item>
+        <item>@raw/da_comrade</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="damage">
+        <item>damage</item>
+        <item>@raw/damage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="damagee">
+        <item>damagee</item>
+        <item>@raw/damagee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="damamge">
+        <item>damamge</item>
+        <item>@raw/damamge</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="damn">
+        <item>damn</item>
+        <item>@raw/damn</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="damnjuiciy">
+        <item>damnjuiciy</item>
+        <item>@raw/damnjuiciy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="damnson">
+        <item>damnson</item>
+        <item>@raw/damnson</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="deadgunner">
+        <item>deadgunner</item>
+        <item>@raw/deadgunner</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="demeggee">
+        <item>demeggee</item>
+        <item>@raw/demeggee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="denied">
+        <item>denied</item>
+        <item>@raw/denied</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="deniedbitch">
+        <item>deniedbitch</item>
+        <item>@raw/deniedbitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="die">
+        <item>die</item>
+        <item>@raw/die</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dieinpeace">
+        <item>dieinpeace</item>
+        <item>@raw/dieinpeace</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dindtdamage">
+        <item>dindtdamage</item>
+        <item>@raw/dindtdamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="directhit">
+        <item>directhit</item>
+        <item>@raw/directhit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dmgisverytasty">
+        <item>dmgisverytasty</item>
+        <item>@raw/dmgisverytasty</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="doittt">
+        <item>doittt</item>
+        <item>@raw/doittt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dontdoitson">
+        <item>dontdoitson</item>
+        <item>@raw/dontdoitson</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dontgetit">
+        <item>dontgetit</item>
+        <item>@raw/dontgetit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dontnukeme">
+        <item>dontnukeme</item>
+        <item>@raw/dontnukeme</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dontshootme">
+        <item>dontshootme</item>
+        <item>@raw/dontshootme</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dontstop">
+        <item>dontstop</item>
+        <item>@raw/dontstop</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="dontudaremove">
+        <item>dontudaremove</item>
+        <item>@raw/dontudaremove</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="drivingskills">
+        <item>drivingskills</item>
+        <item>@raw/drivingskills</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="duck_toy_squeak_dog_toy_sound_effect">
+        <item>duck_toy_squeak_dog_toy_sound_effect</item>
+        <item>@raw/duck_toy_squeak_dog_toy_sound_effect</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="egh">
+        <item>egh</item>
+        <item>@raw/egh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="engage">
+        <item>engage</item>
+        <item>@raw/engage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="entireenemyteam">
+        <item>entireenemyteam</item>
+        <item>@raw/entireenemyteam</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fantastic">
+        <item>fantastic</item>
+        <item>@raw/fantastic</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fart">
+        <item>fart</item>
+        <item>@raw/fart</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fart_nei">
+        <item>fart_nei</item>
+        <item>@raw/fart_nei</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fart_what_a_mess">
+        <item>fart_what_a_mess</item>
+        <item>@raw/fart_what_a_mess</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fbi_open_up">
+        <item>fbi_open_up</item>
+        <item>@raw/fbi_open_up</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fckinglovedamage">
+        <item>fckinglovedamage</item>
+        <item>@raw/fckinglovedamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="feelthebalancee">
+        <item>feelthebalancee</item>
+        <item>@raw/feelthebalancee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="filmszakadas">
+        <item>filmszakadas</item>
+        <item>@raw/filmszakadas</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="finallyy">
+        <item>finallyy</item>
+        <item>@raw/finallyy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fire">
+        <item>fire</item>
+        <item>@raw/fire</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fire_neiii">
+        <item>fire_neiii</item>
+        <item>@raw/fire_neiii</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="foreal">
+        <item>foreal</item>
+        <item>@raw/foreal</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="forevertoaim">
+        <item>forevertoaim</item>
+        <item>@raw/forevertoaim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fuckedupteam">
+        <item>fuckedupteam</item>
+        <item>@raw/fuckedupteam</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="fueltank">
+        <item>fueltank</item>
+        <item>@raw/fueltank</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="g2gfast">
+        <item>g2gfast</item>
+        <item>@raw/g2gfast</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="geettouttahere">
+        <item>geettouttahere</item>
+        <item>@raw/geettouttahere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getbalancedbitch">
+        <item>getbalancedbitch</item>
+        <item>@raw/getbalancedbitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getclickedagain">
+        <item>getclickedagain</item>
+        <item>@raw/getclickedagain</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gethimboy">
+        <item>gethimboy</item>
+        <item>@raw/gethimboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getnukedboy">
+        <item>getnukedboy</item>
+        <item>@raw/getnukedboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getnukedbuddy">
+        <item>getnukedbuddy</item>
+        <item>@raw/getnukedbuddy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getouttahere">
+        <item>getouttahere</item>
+        <item>@raw/getouttahere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getouttahereyouscrub">
+        <item>getouttahereyouscrub</item>
+        <item>@raw/getouttahereyouscrub</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getoverhere">
+        <item>getoverhere</item>
+        <item>@raw/getoverhere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getrektdude">
+        <item>getrektdude</item>
+        <item>@raw/getrektdude</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="getsomedmg">
+        <item>getsomedmg</item>
+        <item>@raw/getsomedmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gg">
+        <item>gg</item>
+        <item>@raw/gg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gg_sound_effect">
+        <item>gg_sound_effect</item>
+        <item>@raw/gg_sound_effect</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ghostletsdothis">
+        <item>ghostletsdothis</item>
+        <item>@raw/ghostletsdothis</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="glorious">
+        <item>glorious</item>
+        <item>@raw/glorious</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="go2gulag">
+        <item>go2gulag</item>
+        <item>@raw/go2gulag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="godplsno">
+        <item>godplsno</item>
+        <item>@raw/godplsno</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gonnabesogood">
+        <item>gonnabesogood</item>
+        <item>@raw/gonnabesogood</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gonnagtoh">
+        <item>gonnagtoh</item>
+        <item>@raw/gonnagtoh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gonnapullback">
+        <item>gonnapullback</item>
+        <item>@raw/gonnapullback</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gonnarektme">
+        <item>gonnarektme</item>
+        <item>@raw/gonnarektme</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gonnarunaway">
+        <item>gonnarunaway</item>
+        <item>@raw/gonnarunaway</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="goodshot">
+        <item>goodshot</item>
+        <item>@raw/goodshot</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gotcha_bitch">
+        <item>gotcha_bitch</item>
+        <item>@raw/gotcha_bitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gotrekt">
+        <item>gotrekt</item>
+        <item>@raw/gotrekt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gotsenttogulag">
+        <item>gotsenttogulag</item>
+        <item>@raw/gotsenttogulag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gottabefckingkidding">
+        <item>gottabefckingkidding</item>
+        <item>@raw/gottabefckingkidding</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gottabekidding">
+        <item>gottabekidding</item>
+        <item>@raw/gottabekidding</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gouttahere">
+        <item>gouttahere</item>
+        <item>@raw/gouttahere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gulag">
+        <item>gulag</item>
+        <item>@raw/gulag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gulag4u">
+        <item>gulag4u</item>
+        <item>@raw/gulag4u</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gunhandling">
+        <item>gunhandling</item>
+        <item>@raw/gunhandling</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gunnerisdead">
+        <item>gunnerisdead</item>
+        <item>@raw/gunnerisdead</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="gunslinger">
+        <item>gunslinger</item>
+        <item>@raw/gunslinger</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hah">
+        <item>hah</item>
+        <item>@raw/hah</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="haha_fuck_you">
+        <item>haha_fuck_you</item>
+        <item>@raw/haha_fuck_you</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hahgetrekt">
+        <item>hahgetrekt</item>
+        <item>@raw/hahgetrekt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hahhgay">
+        <item>hahhgay</item>
+        <item>@raw/hahhgay</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="handsome">
+        <item>handsome</item>
+        <item>@raw/handsome</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="havealittledamage">
+        <item>havealittledamage</item>
+        <item>@raw/havealittledamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="havesomebalance">
+        <item>havesomebalance</item>
+        <item>@raw/havesomebalance</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hearmyself">
+        <item>hearmyself</item>
+        <item>@raw/hearmyself</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hegotnochance">
+        <item>hegotnochance</item>
+        <item>@raw/hegotnochance</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hehadagoodgame">
+        <item>hehadagoodgame</item>
+        <item>@raw/hehadagoodgame</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hehadagudgame">
+        <item>hehadagudgame</item>
+        <item>@raw/hehadagudgame</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hehehe">
+        <item>hehehe</item>
+        <item>@raw/hehehe</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hehehehe">
+        <item>hehehehe</item>
+        <item>@raw/hehehehe</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="heisgoingaway">
+        <item>heisgoingaway</item>
+        <item>@raw/heisgoingaway</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="heisstillhere">
+        <item>heisstillhere</item>
+        <item>@raw/heisstillhere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="heistracked">
+        <item>heistracked</item>
+        <item>@raw/heistracked</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hellno">
+        <item>hellno</item>
+        <item>@raw/hellno</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hello_there">
+        <item>hello_there</item>
+        <item>@raw/hello_there</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="helloboy">
+        <item>helloboy</item>
+        <item>@raw/helloboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hellopeople">
+        <item>hellopeople</item>
+        <item>@raw/hellopeople</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hellosir">
+        <item>hellosir</item>
+        <item>@raw/hellosir</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="heloscrub">
+        <item>heloscrub</item>
+        <item>@raw/heloscrub</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hold_w">
+        <item>hold_w</item>
+        <item>@raw/hold_w</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="holy_shiiit">
+        <item>holy_shiiit</item>
+        <item>@raw/holy_shiiit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="holyshit">
+        <item>holyshit</item>
+        <item>@raw/holyshit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hopefullythistime">
+        <item>hopefullythistime</item>
+        <item>@raw/hopefullythistime</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howandwhy">
+        <item>howandwhy</item>
+        <item>@raw/howandwhy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howblbllmore">
+        <item>howblbllmore</item>
+        <item>@raw/howblbllmore</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howblmoredmg">
+        <item>howblmoredmg</item>
+        <item>@raw/howblmoredmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howbtlittlemore">
+        <item>howbtlittlemore</item>
+        <item>@raw/howbtlittlemore</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howbtlittlemoree">
+        <item>howbtlittlemoree</item>
+        <item>@raw/howbtlittlemoree</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howdlikesome_dmg">
+        <item>howdlikesome_dmg</item>
+        <item>@raw/howdlikesome_dmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="howmakeufeel">
+        <item>howmakeufeel</item>
+        <item>@raw/howmakeufeel</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="hownotpen">
+        <item>hownotpen</item>
+        <item>@raw/hownotpen</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="i_believeinu">
+        <item>i_believeinu</item>
+        <item>@raw/i_believeinu</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="i_diddamage">
+        <item>i_diddamage</item>
+        <item>@raw/i_diddamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="i_want_do_dmg">
+        <item>i_want_do_dmg</item>
+        <item>@raw/i_want_do_dmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ibouncedhim">
+        <item>ibouncedhim</item>
+        <item>@raw/ibouncedhim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="idkucandmg">
+        <item>idkucandmg</item>
+        <item>@raw/idkucandmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="idontlikeuexist">
+        <item>idontlikeuexist</item>
+        <item>@raw/idontlikeuexist</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="idontsee">
+        <item>idontsee</item>
+        <item>@raw/idontsee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ifuhaveammo">
+        <item>ifuhaveammo</item>
+        <item>@raw/ifuhaveammo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="igothim">
+        <item>igothim</item>
+        <item>@raw/igothim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="igothimpeople">
+        <item>igothimpeople</item>
+        <item>@raw/igothimpeople</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="iguthim">
+        <item>iguthim</item>
+        <item>@raw/iguthim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ilikesomedmg">
+        <item>ilikesomedmg</item>
+        <item>@raw/ilikesomedmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ilostmyengine">
+        <item>ilostmyengine</item>
+        <item>@raw/ilostmyengine</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ilostmytracks">
+        <item>ilostmytracks</item>
+        <item>@raw/ilostmytracks</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imblessed">
+        <item>imblessed</item>
+        <item>@raw/imblessed</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imgettingsorekt">
+        <item>imgettingsorekt</item>
+        <item>@raw/imgettingsorekt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imgn_die">
+        <item>imgn_die</item>
+        <item>@raw/imgn_die</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imgonna_dieeee">
+        <item>imgonna_dieeee</item>
+        <item>@raw/imgonna_dieeee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imgonnagiveuaclap">
+        <item>imgonnagiveuaclap</item>
+        <item>@raw/imgonnagiveuaclap</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imgonnatry">
+        <item>imgonnatry</item>
+        <item>@raw/imgonnatry</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imhit">
+        <item>imhit</item>
+        <item>@raw/imhit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imnotsuprisedd">
+        <item>imnotsuprisedd</item>
+        <item>@raw/imnotsuprisedd</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imokayfine">
+        <item>imokayfine</item>
+        <item>@raw/imokayfine</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imonfire">
+        <item>imonfire</item>
+        <item>@raw/imonfire</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="imspotted">
+        <item>imspotted</item>
+        <item>@raw/imspotted</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ineedmyammorack">
+        <item>ineedmyammorack</item>
+        <item>@raw/ineedmyammorack</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="into_battle">
+        <item>into_battle</item>
+        <item>@raw/into_battle</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="intro">
+        <item>intro</item>
+        <item>@raw/intro</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="iseejuiciydamage">
+        <item>iseejuiciydamage</item>
+        <item>@raw/iseejuiciydamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="isszu">
+        <item>isszu</item>
+        <item>@raw/isszu</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="its_edvan">
+        <item>its_edvan</item>
+        <item>@raw/its_edvan</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="itsfiiinee">
+        <item>itsfiiinee</item>
+        <item>@raw/itsfiiinee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="iwantmyammorack">
+        <item>iwantmyammorack</item>
+        <item>@raw/iwantmyammorack</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="iwantsomejcydmg">
+        <item>iwantsomejcydmg</item>
+        <item>@raw/iwantsomejcydmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="iwasterrible">
+        <item>iwasterrible</item>
+        <item>@raw/iwasterrible</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="just_shot">
+        <item>just_shot</item>
+        <item>@raw/just_shot</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="justdodmg">
+        <item>justdodmg</item>
+        <item>@raw/justdodmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="justgonnamurderu">
+        <item>justgonnamurderu</item>
+        <item>@raw/justgonnamurderu</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="keepdriving">
+        <item>keepdriving</item>
+        <item>@raw/keepdriving</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="kickout">
+        <item>kickout</item>
+        <item>@raw/kickout</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="kombobreaker">
+        <item>kombobreaker</item>
+        <item>@raw/kombobreaker</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="komhere_bitch">
+        <item>komhere_bitch</item>
+        <item>@raw/komhere_bitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="komherebitchh">
+        <item>komherebitchh</item>
+        <item>@raw/komherebitchh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="komhereboy">
+        <item>komhereboy</item>
+        <item>@raw/komhereboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="kommeee">
+        <item>kommeee</item>
+        <item>@raw/kommeee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="kommhere">
+        <item>kommhere</item>
+        <item>@raw/kommhere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ladiesngntlmen">
+        <item>ladiesngntlmen</item>
+        <item>@raw/ladiesngntlmen</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="laugh">
+        <item>laugh</item>
+        <item>@raw/laugh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsagressive">
+        <item>letsagressive</item>
+        <item>@raw/letsagressive</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsdie">
+        <item>letsdie</item>
+        <item>@raw/letsdie</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsdoit">
+        <item>letsdoit</item>
+        <item>@raw/letsdoit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsdoitt">
+        <item>letsdoitt</item>
+        <item>@raw/letsdoitt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsdoit_z">
+        <item>letsdoit_z</item>
+        <item>@raw/letsdoit_z</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsdosome_dam">
+        <item>letsdosome_dam</item>
+        <item>@raw/letsdosome_dam</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsdosomedamage">
+        <item>letsdosomedamage</item>
+        <item>@raw/letsdosomedamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsgetthescumbag">
+        <item>letsgetthescumbag</item>
+        <item>@raw/letsgetthescumbag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsgo">
+        <item>letsgo</item>
+        <item>@raw/letsgo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsgoanddealdmg">
+        <item>letsgoanddealdmg</item>
+        <item>@raw/letsgoanddealdmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letsgoooo">
+        <item>letsgoooo</item>
+        <item>@raw/letsgoooo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letssgoo">
+        <item>letssgoo</item>
+        <item>@raw/letssgoo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="letthefunbegin">
+        <item>letthefunbegin</item>
+        <item>@raw/letthefunbegin</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="littlemoredamage">
+        <item>littlemoredamage</item>
+        <item>@raw/littlemoredamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="loadthebalancerounds">
+        <item>loadthebalancerounds</item>
+        <item>@raw/loadthebalancerounds</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="loadthecola">
+        <item>loadthecola</item>
+        <item>@raw/loadthecola</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="loadthepremium">
+        <item>loadthepremium</item>
+        <item>@raw/loadthepremium</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lookathisdude">
+        <item>lookathisdude</item>
+        <item>@raw/lookathisdude</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lookwhosback">
+        <item>lookwhosback</item>
+        <item>@raw/lookwhosback</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lordhavemercy">
+        <item>lordhavemercy</item>
+        <item>@raw/lordhavemercy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lostmygun">
+        <item>lostmygun</item>
+        <item>@raw/lostmygun</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lostmyloader">
+        <item>lostmyloader</item>
+        <item>@raw/lostmyloader</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lostsomethingwhenhit">
+        <item>lostsomethingwhenhit</item>
+        <item>@raw/lostsomethingwhenhit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="lovethisgun">
+        <item>lovethisgun</item>
+        <item>@raw/lovethisgun</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="makeshotscount">
+        <item>makeshotscount</item>
+        <item>@raw/makeshotscount</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mario">
+        <item>mario</item>
+        <item>@raw/mario</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="meehh">
+        <item>meehh</item>
+        <item>@raw/meehh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="meehhh">
+        <item>meehhh</item>
+        <item>@raw/meehhh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="meep_meep">
+        <item>meep_meep</item>
+        <item>@raw/meep_meep</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="meh">
+        <item>meh</item>
+        <item>@raw/meh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mehhh">
+        <item>mehhh</item>
+        <item>@raw/mehhh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="michael_rosen_nice">
+        <item>michael_rosen_nice</item>
+        <item>@raw/michael_rosen_nice</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="missionfailed">
+        <item>missionfailed</item>
+        <item>@raw/missionfailed</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mmmm">
+        <item>mmmm</item>
+        <item>@raw/mmmm</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mobilityworse">
+        <item>mobilityworse</item>
+        <item>@raw/mobilityworse</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mom_get_the_camera">
+        <item>mom_get_the_camera</item>
+        <item>@raw/mom_get_the_camera</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mustfallback">
+        <item>mustfallback</item>
+        <item>@raw/mustfallback</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="my_rng_today">
+        <item>my_rng_today</item>
+        <item>@raw/my_rng_today</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="myengineagain">
+        <item>myengineagain</item>
+        <item>@raw/myengineagain</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="myentirecrew">
+        <item>myentirecrew</item>
+        <item>@raw/myentirecrew</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="mytrack">
+        <item>mytrack</item>
+        <item>@raw/mytrack</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nani">
+        <item>nani</item>
+        <item>@raw/nani</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neeeii">
+        <item>neeeii</item>
+        <item>@raw/neeeii</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nei">
+        <item>nei</item>
+        <item>@raw/nei</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neieieiei">
+        <item>neieieiei</item>
+        <item>@raw/neieieiei</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neii">
+        <item>neii</item>
+        <item>@raw/neii</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nein_nein_nein_nein">
+        <item>nein_nein_nein_nein</item>
+        <item>@raw/nein_nein_nein_nein</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neineinei">
+        <item>neineinei</item>
+        <item>@raw/neineinei</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neithree">
+        <item>neithree</item>
+        <item>@raw/neithree</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neverfcking_mind">
+        <item>neverfcking_mind</item>
+        <item>@raw/neverfcking_mind</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="neverstops">
+        <item>neverstops</item>
+        <item>@raw/neverstops</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nice">
+        <item>nice</item>
+        <item>@raw/nice</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nicedriving">
+        <item>nicedriving</item>
+        <item>@raw/nicedriving</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nicee">
+        <item>nicee</item>
+        <item>@raw/nicee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nie">
+        <item>nie</item>
+        <item>@raw/nie</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="no_worries">
+        <item>no_worries</item>
+        <item>@raw/no_worries</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="noengine">
+        <item>noengine</item>
+        <item>@raw/noengine</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nomnomnom">
+        <item>nomnomnom</item>
+        <item>@raw/nomnomnom</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="noo">
+        <item>noo</item>
+        <item>@raw/noo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="noonehelp">
+        <item>noonehelp</item>
+        <item>@raw/noonehelp</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="noooway">
+        <item>noooway</item>
+        <item>@raw/noooway</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nope">
+        <item>nope</item>
+        <item>@raw/nope</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="noproblem">
+        <item>noproblem</item>
+        <item>@raw/noproblem</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="notbad">
+        <item>notbad</item>
+        <item>@raw/notbad</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="notbother">
+        <item>notbother</item>
+        <item>@raw/notbother</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="notcount">
+        <item>notcount</item>
+        <item>@raw/notcount</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="notseehim">
+        <item>notseehim</item>
+        <item>@raw/notseehim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="notsofriendly">
+        <item>notsofriendly</item>
+        <item>@raw/notsofriendly</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="notsogood">
+        <item>notsogood</item>
+        <item>@raw/notsogood</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nottimetostop">
+        <item>nottimetostop</item>
+        <item>@raw/nottimetostop</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nowallowedtomiss">
+        <item>nowallowedtomiss</item>
+        <item>@raw/nowallowedtomiss</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nowisthetime">
+        <item>nowisthetime</item>
+        <item>@raw/nowisthetime</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nowletssgo">
+        <item>nowletssgo</item>
+        <item>@raw/nowletssgo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nowthats">
+        <item>nowthats</item>
+        <item>@raw/nowthats</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nowthatsalotofdamage">
+        <item>nowthatsalotofdamage</item>
+        <item>@raw/nowthatsalotofdamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nyeeehhehe">
+        <item>nyeeehhehe</item>
+        <item>@raw/nyeeehhehe</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nyeek">
+        <item>nyeek</item>
+        <item>@raw/nyeek</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="nyeknyeknyeknyeeeeek">
+        <item>nyeknyeknyeknyeeeeek</item>
+        <item>@raw/nyeknyeknyeknyeeeeek</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="o_tottally_worth_it">
+        <item>o_tottally_worth_it</item>
+        <item>@raw/o_tottally_worth_it</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="oaah">
+        <item>oaah</item>
+        <item>@raw/oaah</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="oah">
+        <item>oah</item>
+        <item>@raw/oah</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="obviouslywhatelsewiththiscrapgun">
+        <item>obviouslywhatelsewiththiscrapgun</item>
+        <item>@raw/obviouslywhatelsewiththiscrapgun</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="obvsly">
+        <item>obvsly</item>
+        <item>@raw/obvsly</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ofc">
+        <item>ofc</item>
+        <item>@raw/ofc</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ofcibounced">
+        <item>ofcibounced</item>
+        <item>@raw/ofcibounced</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohboy">
+        <item>ohboy</item>
+        <item>@raw/ohboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohdamnit">
+        <item>ohdamnit</item>
+        <item>@raw/ohdamnit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohehello">
+        <item>ohehello</item>
+        <item>@raw/ohehello</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohfatchs">
+        <item>ohfatchs</item>
+        <item>@raw/ohfatchs</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohfuck">
+        <item>ohfuck</item>
+        <item>@raw/ohfuck</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohgod">
+        <item>ohgod</item>
+        <item>@raw/ohgod</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohgodd">
+        <item>ohgodd</item>
+        <item>@raw/ohgodd</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohh">
+        <item>ohh</item>
+        <item>@raw/ohh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohhellno">
+        <item>ohhellno</item>
+        <item>@raw/ohhellno</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohheretheycome">
+        <item>ohheretheycome</item>
+        <item>@raw/ohheretheycome</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohhoho">
+        <item>ohhoho</item>
+        <item>@raw/ohhoho</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohnice">
+        <item>ohnice</item>
+        <item>@raw/ohnice</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohshitt">
+        <item>ohshitt</item>
+        <item>@raw/ohshitt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ohyes">
+        <item>ohyes</item>
+        <item>@raw/ohyes</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="oooohhh">
+        <item>oooohhh</item>
+        <item>@raw/oooohhh</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="penlow">
+        <item>penlow</item>
+        <item>@raw/penlow</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="penz">
+        <item>penz</item>
+        <item>@raw/penz</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="perfect">
+        <item>perfect</item>
+        <item>@raw/perfect</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="perfekt">
+        <item>perfekt</item>
+        <item>@raw/perfekt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="plsgoaway">
+        <item>plsgoaway</item>
+        <item>@raw/plsgoaway</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="plskeepgoing">
+        <item>plskeepgoing</item>
+        <item>@raw/plskeepgoing</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="plsuninstall">
+        <item>plsuninstall</item>
+        <item>@raw/plsuninstall</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="poorspeed">
+        <item>poorspeed</item>
+        <item>@raw/poorspeed</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="prem_ap">
+        <item>prem_ap</item>
+        <item>@raw/prem_ap</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="premission">
+        <item>premission</item>
+        <item>@raw/premission</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="preventcamp">
+        <item>preventcamp</item>
+        <item>@raw/preventcamp</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="punch">
+        <item>punch</item>
+        <item>@raw/punch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="radio">
+        <item>radio</item>
+        <item>@raw/radio</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="radiomandead">
+        <item>radiomandead</item>
+        <item>@raw/radiomandead</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rdy2engage">
+        <item>rdy2engage</item>
+        <item>@raw/rdy2engage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rdyto_fije">
+        <item>rdyto_fije</item>
+        <item>@raw/rdyto_fije</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rdytofire">
+        <item>rdytofire</item>
+        <item>@raw/rdytofire</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ready_fight">
+        <item>ready_fight</item>
+        <item>@raw/ready_fight</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rektingmytank">
+        <item>rektingmytank</item>
+        <item>@raw/rektingmytank</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="retreat">
+        <item>retreat</item>
+        <item>@raw/retreat</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ricochet">
+        <item>ricochet</item>
+        <item>@raw/ricochet</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ridicuolus">
+        <item>ridicuolus</item>
+        <item>@raw/ridicuolus</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rip">
+        <item>rip</item>
+        <item>@raw/rip</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rly">
+        <item>rly</item>
+        <item>@raw/rly</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rngesus">
+        <item>rngesus</item>
+        <item>@raw/rngesus</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rngesuss">
+        <item>rngesuss</item>
+        <item>@raw/rngesuss</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="runaway">
+        <item>runaway</item>
+        <item>@raw/runaway</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="rushb">
+        <item>rushb</item>
+        <item>@raw/rushb</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sadmoment">
+        <item>sadmoment</item>
+        <item>@raw/sadmoment</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="scream">
+        <item>scream</item>
+        <item>@raw/scream</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="screwuguys">
+        <item>screwuguys</item>
+        <item>@raw/screwuguys</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sdysty">
+        <item>sdysty</item>
+        <item>@raw/sdysty</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="seriousdmg">
+        <item>seriousdmg</item>
+        <item>@raw/seriousdmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="setsmeon_fire">
+        <item>setsmeon_fire</item>
+        <item>@raw/setsmeon_fire</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="shame">
+        <item>shame</item>
+        <item>@raw/shame</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="shoothim">
+        <item>shoothim</item>
+        <item>@raw/shoothim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="showurselfs">
+        <item>showurselfs</item>
+        <item>@raw/showurselfs</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sideways">
+        <item>sideways</item>
+        <item>@raw/sideways</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="siren">
+        <item>siren</item>
+        <item>@raw/siren</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sixth_sense">
+        <item>sixth_sense</item>
+        <item>@raw/sixth_sense</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="slap">
+        <item>slap</item>
+        <item>@raw/slap</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="smoke">
+        <item>smoke</item>
+        <item>@raw/smoke</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sopredictable">
+        <item>sopredictable</item>
+        <item>@raw/sopredictable</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="splat">
+        <item>splat</item>
+        <item>@raw/splat</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="spotted_rip">
+        <item>spotted_rip</item>
+        <item>@raw/spotted_rip</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="spriseitsame">
+        <item>spriseitsame</item>
+        <item>@raw/spriseitsame</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="srsly">
+        <item>srsly</item>
+        <item>@raw/srsly</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sshit">
+        <item>sshit</item>
+        <item>@raw/sshit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="standstillboy">
+        <item>standstillboy</item>
+        <item>@raw/standstillboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stayaliveman">
+        <item>stayaliveman</item>
+        <item>@raw/stayaliveman</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="staythere">
+        <item>staythere</item>
+        <item>@raw/staythere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stndstillboy">
+        <item>stndstillboy</item>
+        <item>@raw/stndstillboy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stoparty">
+        <item>stoparty</item>
+        <item>@raw/stoparty</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stopdestroyingmytank">
+        <item>stopdestroyingmytank</item>
+        <item>@raw/stopdestroyingmytank</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stophittingmee">
+        <item>stophittingmee</item>
+        <item>@raw/stophittingmee</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stoprunning">
+        <item>stoprunning</item>
+        <item>@raw/stoprunning</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="strnktenk">
+        <item>strnktenk</item>
+        <item>@raw/strnktenk</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="strongturret">
+        <item>strongturret</item>
+        <item>@raw/strongturret</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="stronkteam">
+        <item>stronkteam</item>
+        <item>@raw/stronkteam</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="suchascrub">
+        <item>suchascrub</item>
+        <item>@raw/suchascrub</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="suprised">
+        <item>suprised</item>
+        <item>@raw/suprised</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="surprise_motherfcker">
+        <item>surprise_motherfcker</item>
+        <item>@raw/surprise_motherfcker</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sweetcredits">
+        <item>sweetcredits</item>
+        <item>@raw/sweetcredits</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sweetmotherofgod">
+        <item>sweetmotherofgod</item>
+        <item>@raw/sweetmotherofgod</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="sweetsweetdmage">
+        <item>sweetsweetdmage</item>
+        <item>@raw/sweetsweetdmage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="targets">
+        <item>targets</item>
+        <item>@raw/targets</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="tastethebalance">
+        <item>tastethebalance</item>
+        <item>@raw/tastethebalance</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thaswhybroken">
+        <item>thaswhybroken</item>
+        <item>@raw/thaswhybroken</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatfeltgood">
+        <item>thatfeltgood</item>
+        <item>@raw/thatfeltgood</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatgameneverhappened">
+        <item>thatgameneverhappened</item>
+        <item>@raw/thatgameneverhappened</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsagoodthing">
+        <item>thatsagoodthing</item>
+        <item>@raw/thatsagoodthing</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsalotofdamage">
+        <item>thatsalotofdamage</item>
+        <item>@raw/thatsalotofdamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsalotofhealth">
+        <item>thatsalotofhealth</item>
+        <item>@raw/thatsalotofhealth</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsatank">
+        <item>thatsatank</item>
+        <item>@raw/thatsatank</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsimpressive">
+        <item>thatsimpressive</item>
+        <item>@raw/thatsimpressive</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsmyengine">
+        <item>thatsmyengine</item>
+        <item>@raw/thatsmyengine</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatsmygunn">
+        <item>thatsmygunn</item>
+        <item>@raw/thatsmygunn</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatwasclose">
+        <item>thatwasclose</item>
+        <item>@raw/thatwasclose</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thatwasjuicy">
+        <item>thatwasjuicy</item>
+        <item>@raw/thatwasjuicy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="theregoesmyammorack">
+        <item>theregoesmyammorack</item>
+        <item>@raw/theregoesmyammorack</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thereheis">
+        <item>thereheis</item>
+        <item>@raw/thereheis</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thereisascumbag">
+        <item>thereisascumbag</item>
+        <item>@raw/thereisascumbag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="therewego">
+        <item>therewego</item>
+        <item>@raw/therewego</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="therewegoooo">
+        <item>therewegoooo</item>
+        <item>@raw/therewegoooo</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thesebitches">
+        <item>thesebitches</item>
+        <item>@raw/thesebitches</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thisgoingterrible">
+        <item>thisgoingterrible</item>
+        <item>@raw/thisgoingterrible</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thisgunissobad">
+        <item>thisgunissobad</item>
+        <item>@raw/thisgunissobad</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thisistheend">
+        <item>thisistheend</item>
+        <item>@raw/thisistheend</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thisiswherewedie">
+        <item>thisiswherewedie</item>
+        <item>@raw/thisiswherewedie</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thistankon_fire">
+        <item>thistankon_fire</item>
+        <item>@raw/thistankon_fire</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thiswillbejuici">
+        <item>thiswillbejuici</item>
+        <item>@raw/thiswillbejuici</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="three_mark">
+        <item>three_mark</item>
+        <item>@raw/three_mark</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="three_platoon">
+        <item>three_platoon</item>
+        <item>@raw/three_platoon</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thrwego">
+        <item>thrwego</item>
+        <item>@raw/thrwego</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="thrwegou">
+        <item>thrwegou</item>
+        <item>@raw/thrwegou</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="tickettogulag">
+        <item>tickettogulag</item>
+        <item>@raw/tickettogulag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="tookoutmyengine">
+        <item>tookoutmyengine</item>
+        <item>@raw/tookoutmyengine</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="tooksome_srs_dmg">
+        <item>tooksome_srs_dmg</item>
+        <item>@raw/tooksome_srs_dmg</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="topspeed">
+        <item>topspeed</item>
+        <item>@raw/topspeed</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="topspeed_masolata">
+        <item>topspeed_masolata</item>
+        <item>@raw/topspeed_masolata</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="totallyworthit">
+        <item>totallyworthit</item>
+        <item>@raw/totallyworthit</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="tucsok">
+        <item>tucsok</item>
+        <item>@raw/tucsok</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="tupp">
+        <item>tupp</item>
+        <item>@raw/tupp</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="turnback">
+        <item>turnback</item>
+        <item>@raw/turnback</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="turretarmor">
+        <item>turretarmor</item>
+        <item>@raw/turretarmor</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="turretdamaged">
+        <item>turretdamaged</item>
+        <item>@raw/turretdamaged</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="uarethelastone">
+        <item>uarethelastone</item>
+        <item>@raw/uarethelastone</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="ukidding">
+        <item>ukidding</item>
+        <item>@raw/ukidding</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="unevertakemealive">
+        <item>unevertakemealive</item>
+        <item>@raw/unevertakemealive</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="unfinishedbusiness">
+        <item>unfinishedbusiness</item>
+        <item>@raw/unfinishedbusiness</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="unstopppable">
+        <item>unstopppable</item>
+        <item>@raw/unstopppable</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="upurbutt">
+        <item>upurbutt</item>
+        <item>@raw/upurbutt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="urmine">
+        <item>urmine</item>
+        <item>@raw/urmine</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="verynice">
+        <item>verynice</item>
+        <item>@raw/verynice</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="verynicejob">
+        <item>verynicejob</item>
+        <item>@raw/verynicejob</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wahtisthisgame">
+        <item>wahtisthisgame</item>
+        <item>@raw/wahtisthisgame</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wasagoodclick">
+        <item>wasagoodclick</item>
+        <item>@raw/wasagoodclick</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wasted">
+        <item>wasted</item>
+        <item>@raw/wasted</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="watt">
+        <item>watt</item>
+        <item>@raw/watt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wearesodead">
+        <item>wearesodead</item>
+        <item>@raw/wearesodead</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wecandudis">
+        <item>wecandudis</item>
+        <item>@raw/wecandudis</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wecanwinthis">
+        <item>wecanwinthis</item>
+        <item>@raw/wecanwinthis</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wegothim">
+        <item>wegothim</item>
+        <item>@raw/wegothim</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wehavetargets">
+        <item>wehavetargets</item>
+        <item>@raw/wehavetargets</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="welcometo_wot">
+        <item>welcometo_wot</item>
+        <item>@raw/welcometo_wot</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="werediinghere">
+        <item>werediinghere</item>
+        <item>@raw/werediinghere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="weregettingrekt">
+        <item>weregettingrekt</item>
+        <item>@raw/weregettingrekt</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="what">
+        <item>what</item>
+        <item>@raw/what</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatagame">
+        <item>whatagame</item>
+        <item>@raw/whatagame</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatareudoing">
+        <item>whatareudoing</item>
+        <item>@raw/whatareudoing</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatasuprise">
+        <item>whatasuprise</item>
+        <item>@raw/whatasuprise</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatdowehavehere">
+        <item>whatdowehavehere</item>
+        <item>@raw/whatdowehavehere</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatisgoingonhereman">
+        <item>whatisgoingonhereman</item>
+        <item>@raw/whatisgoingonhereman</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatisthis_rng">
+        <item>whatisthis_rng</item>
+        <item>@raw/whatisthis_rng</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatmgonnado">
+        <item>whatmgonnado</item>
+        <item>@raw/whatmgonnado</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatstheplan">
+        <item>whatstheplan</item>
+        <item>@raw/whatstheplan</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whatwereudoing">
+        <item>whatwereudoing</item>
+        <item>@raw/whatwereudoing</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whereisthescumbag">
+        <item>whereisthescumbag</item>
+        <item>@raw/whereisthescumbag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wherewejustdie">
+        <item>wherewejustdie</item>
+        <item>@raw/wherewejustdie</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whyamistillalive">
+        <item>whyamistillalive</item>
+        <item>@raw/whyamistillalive</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whyareu_runnin">
+        <item>whyareu_runnin</item>
+        <item>@raw/whyareu_runnin</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whyareuruning">
+        <item>whyareuruning</item>
+        <item>@raw/whyareuruning</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whyareurunningsir">
+        <item>whyareurunningsir</item>
+        <item>@raw/whyareurunningsir</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whynot">
+        <item>whynot</item>
+        <item>@raw/whynot</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whyshootme">
+        <item>whyshootme</item>
+        <item>@raw/whyshootme</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="whystop">
+        <item>whystop</item>
+        <item>@raw/whystop</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wilhelm_scream">
+        <item>wilhelm_scream</item>
+        <item>@raw/wilhelm_scream</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="winkill">
+        <item>winkill</item>
+        <item>@raw/winkill</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="workoutforya">
+        <item>workoutforya</item>
+        <item>@raw/workoutforya</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="worse_rof">
+        <item>worse_rof</item>
+        <item>@raw/worse_rof</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="worseaccuracy">
+        <item>worseaccuracy</item>
+        <item>@raw/worseaccuracy</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wowwowwow">
+        <item>wowwowwow</item>
+        <item>@raw/wowwowwow</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wreckhimboyz">
+        <item>wreckhimboyz</item>
+        <item>@raw/wreckhimboyz</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wrong">
+        <item>wrong</item>
+        <item>@raw/wrong</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="wtf">
+        <item>wtf</item>
+        <item>@raw/wtf</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="xp">
+        <item>xp</item>
+        <item>@raw/xp</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="xp_shutdown">
+        <item>xp_shutdown</item>
+        <item>@raw/xp_shutdown</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yay">
+        <item>yay</item>
+        <item>@raw/yay</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yeahdamage">
+        <item>yeahdamage</item>
+        <item>@raw/yeahdamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yealetsrollout">
+        <item>yealetsrollout</item>
+        <item>@raw/yealetsrollout</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yeey">
+        <item>yeey</item>
+        <item>@raw/yeey</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yello_oh_yeah">
+        <item>yello_oh_yeah</item>
+        <item>@raw/yello_oh_yeah</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yess">
+        <item>yess</item>
+        <item>@raw/yess</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yessss">
+        <item>yessss</item>
+        <item>@raw/yessss</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="yestakethat">
+        <item>yestakethat</item>
+        <item>@raw/yestakethat</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="youand_i">
+        <item>youand_i</item>
+        <item>@raw/youand_i</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="youbitch">
+        <item>youbitch</item>
+        <item>@raw/youbitch</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="youlikesomedamage">
+        <item>youlikesomedamage</item>
+        <item>@raw/youlikesomedamage</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="youscummbag">
+        <item>youscummbag</item>
+        <item>@raw/youscummbag</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="z_really">
+        <item>z_really</item>
+        <item>@raw/z_really</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+
+    <array name="zaaah_there_we_go">
+        <item>zaaah_there_we_go</item>
+        <item>@raw/zaaah_there_we_go</item>
+        <item>@mipmap/ic_cucumber</item>
+    </array>
+</resources>

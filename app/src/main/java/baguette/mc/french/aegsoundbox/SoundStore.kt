@@ -15,51 +15,69 @@
  */
 package baguette.mc.french.aegsoundbox
 
+import android.annotation.SuppressLint
 import android.content.Context
 import java.util.*
 
+
 object SoundStore {
+    @SuppressLint("ResourceType")
     @JvmStatic
     fun getAllSounds(context: Context): ArrayList<Sound> {
         val res = context.applicationContext.resources
-        val labels = res.obtainTypedArray(R.array.labels)
-        val ids = res.obtainTypedArray(R.array.ids)
-        val pictureIds = res.obtainTypedArray(R.array.pictureIds)
-        val sounds = ArrayList<Sound>()
-        for (i in 0 until labels.length()) {
-            sounds.add(
+        val soundsArray = res.obtainTypedArray(R.array.sounds)
+
+        val soundsList = ArrayList<Sound>()
+        for (i in 0 until soundsArray.length()) {
+            val soundId = soundsArray.getResourceId(i, 0)
+
+            // Get the properties of one object
+            val rawSound = context.resources.obtainTypedArray(soundId)
+
+            soundsList.add(
                 Sound(
-                    labels.getString(i),
-                    ids.getResourceId(i, -1),
-                    pictureIds.getResourceId(i, -1)
+                    rawSound.getString(0),
+                    rawSound.getResourceId(1, -1),
+                    rawSound.getResourceId(2, -1)
                 )
             )
+
+            rawSound.recycle()
         }
-        labels.recycle()
-        ids.recycle()
-        pictureIds.recycle()
-        return sounds
+
+        soundsArray.recycle()
+        return soundsList
     }
 
+    @SuppressLint("ResourceType")
     fun getFavoriteSounds(context: Context): ArrayList<Sound> {
+
+
         val res = context.applicationContext.resources
-        val labels = res.obtainTypedArray(R.array.labels)
-        val ids = res.obtainTypedArray(R.array.ids)
-        val pictureIds = res.obtainTypedArray(R.array.pictureIds)
-        val sounds = ArrayList<Sound>()
-        for (i in 0 until labels.length()) {
-            val sound = Sound(
-                labels.getString(i),
-                ids.getResourceId(i, -1),
-                pictureIds.getResourceId(i, -1)
-            )
+        val soundsArray = res.obtainTypedArray(R.array.sounds)
+
+        val soundsList = ArrayList<Sound>()
+        for (i in 0 until soundsArray.length()) {
+            val soundId = soundsArray.getResourceId(i, 0)
+
+            // Get the properties of one object
+            val rawSound = context.resources.obtainTypedArray(soundId)
+
+            val sound  =
+                Sound(
+                    rawSound.getString(0),
+                    rawSound.getResourceId(1, -1),
+                    rawSound.getResourceId(2, -1)
+                )
+
             if (sound.getFavorite()) {
-                sounds.add(sound)
+                soundsList.add(sound)
             }
+
+            rawSound.recycle()
         }
-        labels.recycle()
-        ids.recycle()
-        pictureIds.recycle()
-        return sounds
+
+        soundsArray.recycle()
+        return soundsList
     }
 }

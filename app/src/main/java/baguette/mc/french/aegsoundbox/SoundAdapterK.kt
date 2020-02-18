@@ -23,43 +23,44 @@ import org.greenrobot.eventbus.ThreadMode
 
 
 class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
-    androidx.recyclerview.widget.RecyclerView.Adapter<SoundAdapterK.ViewHolder>(),
+    RecyclerView.Adapter<SoundAdapterK.ViewHolder>(),
     SectionTitleProvider, Filterable {
 
 
     private var sounds:ArrayList<Sound>
-    private val soundstFiltered: ArrayList<Sound>? = null
+    private var soundsFiltered: ArrayList<Sound>
     private var shouldShowFavsOnly = false
     private var context:Context
 
     init{
         sounds = soundArray
+        soundsFiltered = soundArray
         this.context = context
     }
 
     override fun getItemCount(): Int {
-        return  sounds.size
+        return  soundsFiltered.size
     }
 
     fun getItem(position: Int): String {
-        return  sounds[position].name
+        return  soundsFiltered[position].name
     }
 
     fun onlyShowFavorites() {
         shouldShowFavsOnly = true
-        for (sound in ArrayList(sounds))
+        for (sound in ArrayList(soundsFiltered))
         {
             if (!sound.getFavorite())
             {
-                notifyItemRemoved(sounds.indexOf(sound))
-                sounds.remove(sound)
+                notifyItemRemoved(soundsFiltered.indexOf(sound))
+                soundsFiltered.remove(sound)
             }
         }
     }
 
     fun showAllSounds(context:Context) {
         shouldShowFavsOnly = false
-        sounds = SoundStore.getAllSounds(context)
+        soundsFiltered = SoundStore.getAllSounds(context)
         notifyDataSetChanged()
     }
 
@@ -70,7 +71,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
     }
 
     override fun onBindViewHolder(holder:ViewHolder, position:Int) {
-        holder.title.text = sounds[position].name
+        holder.title.text = soundsFiltered[position].name
         holder.itemView.setOnClickListener(object: View.OnClickListener {
 
             @Subscribe(threadMode = ThreadMode.MAIN)
@@ -85,18 +86,18 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
                     return
                 }
                 EventBus.getDefault().register(this)
-                EventBus.getDefault().post(sounds[holder.adapterPosition])
+                EventBus.getDefault().post(soundsFiltered[holder.adapterPosition])
             }
         })
-        val isFavorite = sounds.get(position).getFavorite()
+        val isFavorite = soundsFiltered.get(position).getFavorite()
         holder.favButton.setImageResource(if (isFavorite)
             R.drawable.ic_favorite_white_24dp
         else
             R.drawable
                 .ic_favorite_outline_white_24dp)
         holder.favButton.setOnClickListener { v ->
-            val newFavStatus = !sounds.get(holder.adapterPosition).getFavorite()
-            sounds.get(holder.adapterPosition).setFavorite(newFavStatus)
+            val newFavStatus = !soundsFiltered[holder.adapterPosition].getFavorite()
+            soundsFiltered[holder.adapterPosition].setFavorite(newFavStatus)
             if (newFavStatus) {
                 (v as ImageButton).setImageResource(R.drawable.ic_favorite_white_24dp)
                 v.setContentDescription(v.getContext().getString(R.string.fav_desc))
@@ -106,16 +107,16 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
             }
             if (shouldShowFavsOnly) {
                 // Remove from the list.
-                sounds.remove(sounds.get(holder.adapterPosition))
+                soundsFiltered.remove(soundsFiltered[holder.adapterPosition])
                 notifyItemRemoved(holder.adapterPosition)
             }
         }
         Glide.with(context)
-            .load(sounds[position].pictureId)
+            .load(soundsFiltered[position].pictureId)
             .centerCrop()
             .into(holder.imageView)
     }
-    class ViewHolder(v:View): androidx.recyclerview.widget.RecyclerView.ViewHolder(v) {
+    class ViewHolder(v:View): RecyclerView.ViewHolder(v) {
         var title:TextView = v.findViewById(R.id.title) as TextView
         var favButton:ImageButton = v.findViewById(R.id.fav_button) as ImageButton
         var imageView:ImageView = v.findViewById(R.id.imageView) as ImageView
@@ -124,12 +125,12 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
             accentColor = itemView.context.resources.getColor(R.color.colorAccent)
         }
         fun setNormalColors() {
-            (itemView as androidx.cardview.widget.CardView).setCardBackgroundColor(accentColor)
+            (itemView as CardView).setCardBackgroundColor(accentColor)
             title.setTextColor(Color.WHITE)
             favButton.clearColorFilter()
         }
         fun setPlayingColors() {
-            (itemView as androidx.cardview.widget.CardView).setCardBackgroundColor(Color.WHITE)
+            (itemView as CardView).setCardBackgroundColor(Color.WHITE)
             title.setTextColor(accentColor)
             favButton.setColorFilter(accentColor)
         }
@@ -145,7 +146,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
             override fun performFiltering(charSequence: CharSequence): FilterResults {
                 val charString = charSequence.toString()
                 if (charString.isEmpty()) {
-                    sounds = SoundStore.getAllSounds(context)
+                    soundsFiltered = sounds
                 } else {
                     val filteredList = ArrayList<Sound>()
                     for (sound in sounds) {
@@ -158,16 +159,16 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
                         }
                     }
 
-                    sounds = filteredList
+                    soundsFiltered = filteredList
                 }
 
                 val filterResults = FilterResults()
-                filterResults.values = sounds
+                filterResults.values = soundsFiltered
                 return filterResults
             }
 
             override fun publishResults(charSequence: CharSequence, filterResults: FilterResults) {
-                sounds = filterResults.values as ArrayList<Sound>
+                soundsFiltered = filterResults.values as ArrayList<Sound>
                 notifyDataSetChanged()
             }
         }

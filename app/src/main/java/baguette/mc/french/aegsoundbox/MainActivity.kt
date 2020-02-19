@@ -18,7 +18,7 @@ import android.widget.AbsListView
 import androidx.core.app.ComponentActivity.ExtraData
 import androidx.core.content.ContextCompat.getSystemService
 import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
+import com.google.android.material.switchmaterial.SwitchMaterial
 
 
 class MainActivity : AppCompatActivity() {
@@ -71,7 +71,7 @@ class MainActivity : AppCompatActivity() {
         val fastScroller = findViewById<View>(R.id.fastscroll) as FastScroller
         fastScroller.setRecyclerView(grid)
 
-        val favSwitch = findViewById<View>(R.id.fav_switch) as SwitchCompat
+        val favSwitch = findViewById<View>(R.id.fav_switch) as SwitchMaterial
         favSwitch.isChecked = FavStore.instance?.showFavorites!!
 
         if (favSwitch.isChecked) {

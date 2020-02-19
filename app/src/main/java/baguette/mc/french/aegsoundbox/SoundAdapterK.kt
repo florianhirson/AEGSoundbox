@@ -5,6 +5,9 @@ import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.view.animation.Animation
+import android.view.animation.LinearInterpolator
+import android.view.animation.RotateAnimation
 import android.widget.*
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
@@ -67,6 +70,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
         holder.title.text = soundsFiltered[position].name
         holder.itemView.setOnClickListener(object: View.OnClickListener {
 
+
             @Subscribe(threadMode = ThreadMode.MAIN)
             fun onEvent(done:String) {
                 holder.setNormalColors()
@@ -120,11 +124,21 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
             (itemView as CardView).setCardBackgroundColor(accentColor)
             title.setTextColor(Color.WHITE)
             favButton.clearColorFilter()
+
+            imageView.clearAnimation()
         }
         fun setPlayingColors() {
             (itemView as CardView).setCardBackgroundColor(Color.WHITE)
             title.setTextColor(accentColor)
             favButton.setColorFilter(accentColor)
+
+            val rotateAnimation =  RotateAnimation(0.0F, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f)
+
+            rotateAnimation.interpolator = LinearInterpolator()
+            rotateAnimation.duration = 500
+            rotateAnimation.repeatCount = Animation.INFINITE
+
+            imageView.startAnimation(rotateAnimation)
         }
     }
 

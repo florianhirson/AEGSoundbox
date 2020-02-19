@@ -1,21 +1,14 @@
 package baguette.mc.french.aegsoundbox
 
 import android.content.Context
-
 import android.graphics.Color
-
-import androidx.cardview.widget.CardView
-
-import androidx.recyclerview.widget.RecyclerView
-
 import android.view.LayoutInflater
-
 import android.view.View
-
 import android.view.ViewGroup
 import android.widget.*
-
-import com.bumptech.glide.Glide
+import androidx.cardview.widget.CardView
+import androidx.recyclerview.widget.RecyclerView
+import baguette.mc.french.aegsoundbox.R.drawable
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
@@ -91,18 +84,17 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
         })
         val isFavorite = soundsFiltered.get(position).getFavorite()
         holder.favButton.setImageResource(if (isFavorite)
-            R.drawable.ic_favorite_white_24dp
+            drawable.ic_red_tomato
         else
-            R.drawable
-                .ic_favorite_outline_white_24dp)
+            drawable.ic_grey_tomato)
         holder.favButton.setOnClickListener { v ->
             val newFavStatus = !soundsFiltered[holder.adapterPosition].getFavorite()
             soundsFiltered[holder.adapterPosition].setFavorite(newFavStatus)
             if (newFavStatus) {
-                (v as ImageButton).setImageResource(R.drawable.ic_favorite_white_24dp)
+                (v as ImageButton).setImageResource(drawable.ic_red_tomato)
                 v.setContentDescription(v.getContext().getString(R.string.fav_desc))
             } else {
-                (v as ImageButton).setImageResource(R.drawable.ic_favorite_outline_white_24dp)
+                (v as ImageButton).setImageResource(drawable.ic_grey_tomato)
                 v.setContentDescription(v.getContext().getString(R.string.not_fav_desc))
             }
             if (shouldShowFavsOnly) {
@@ -111,7 +103,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
                 notifyItemRemoved(holder.adapterPosition)
             }
         }
-        Glide.with(context)
+        GlideApp.with(context)
             .load(soundsFiltered[position].pictureId)
             .centerCrop()
             .into(holder.imageView)

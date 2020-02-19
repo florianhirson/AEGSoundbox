@@ -35,7 +35,7 @@
             android:layout_below="@+id/imageView"
             android:background="@null"
             android:contentDescription="@string/not_fav_desc"
-            android:src="@drawable/ic_favorite_outline_white_24dp"/>
+            android:src="@drawable/ic_grey_tomato"/>
 
         <TextView
             android:id="@+id/title"

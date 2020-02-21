@@ -13,10 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baguette.mc.french.aegsoundbox
+package baguette.mc.french.aegsoundbox.utils
 
 import android.annotation.SuppressLint
 import android.content.Context
+import baguette.mc.french.aegsoundbox.R
 import java.util.*
 
 

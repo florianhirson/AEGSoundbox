@@ -1,4 +1,4 @@
-package baguette.mc.french.aegsoundbox
+package baguette.mc.french.aegsoundbox.utils
 
 import android.content.Context
 import android.graphics.Color
@@ -12,6 +12,7 @@ import android.widget.*
 import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
+import baguette.mc.french.aegsoundbox.R
 import baguette.mc.french.aegsoundbox.R.drawable
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
 import org.greenrobot.eventbus.EventBus
@@ -57,7 +58,8 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
 
     fun showAllSounds(context:Context) {
         shouldShowFavsOnly = false
-        soundsFiltered = SoundStore.getAllSounds(context)
+        soundsFiltered =
+            SoundStore.getAllSounds(context)
         notifyDataSetChanged()
     }
 
@@ -67,7 +69,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
         return ViewHolder(v)
     }
 
-    override fun onBindViewHolder(holder:ViewHolder, position:Int) {
+    override fun onBindViewHolder(holder: ViewHolder, position:Int) {
         holder.title.text = soundsFiltered[position].name
         holder.itemView.setOnClickListener(object: View.OnClickListener {
 
@@ -87,7 +89,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
                 EventBus.getDefault().post(soundsFiltered[holder.adapterPosition])
             }
         })
-        val isFavorite = soundsFiltered.get(position).getFavorite()
+        val isFavorite = soundsFiltered[position].getFavorite()
         holder.favButton.setImageResource(if (isFavorite)
             drawable.ic_red_tomato
         else
@@ -107,12 +109,14 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
                 soundsFiltered.remove(soundsFiltered[holder.adapterPosition])
                 notifyItemRemoved(holder.adapterPosition)
             }
+            notifyDataSetChanged()
         }
         GlideApp.with(context)
             .load(soundsFiltered[position].pictureId)
             .centerCrop()
             .into(holder.imageView)
     }
+
     class ViewHolder(v:View): RecyclerView.ViewHolder(v) {
         var title:TextView = v.findViewById(R.id.title) as TextView
         var favButton:ImageButton = v.findViewById(R.id.fav_button) as ImageButton
@@ -120,7 +124,9 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
         private var accentColor:Int = 0
         init{
 
-            accentColor = ContextCompat.getColor(itemView.context, R.color.colorAccent)
+            accentColor = ContextCompat.getColor(itemView.context,
+                R.color.colorAccent
+            )
         }
         fun setNormalColors() {
             (itemView as CardView).setCardBackgroundColor(accentColor)
@@ -130,8 +136,12 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
             imageView.clearAnimation()
         }
         fun setPlayingColors() {
-            (itemView as CardView).setCardBackgroundColor(ContextCompat.getColor(itemView.context, R.color.colorImagePlayingSound))
-            title.setTextColor(ContextCompat.getColor(itemView.context, R.color.colorTextPlayingSound))
+            (itemView as CardView).setCardBackgroundColor(ContextCompat.getColor(itemView.context,
+                R.color.colorImagePlayingSound
+            ))
+            title.setTextColor(ContextCompat.getColor(itemView.context,
+                R.color.colorTextPlayingSound
+            ))
 //            favButton.setColorFilter(accentColor)
 
             val rotateAnimation =  RotateAnimation(0.0F, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f)

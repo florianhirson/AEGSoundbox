@@ -29,44 +29,19 @@
                         android:id="@+id/txtSearchSounds"/>
 
             </com.google.android.material.textfield.TextInputLayout>
-
-
-
-            <com.google.android.material.switchmaterial.SwitchMaterial
-                    android:id="@+id/fav_switch"
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:layout_marginEnd="16dp"
-                    android:layout_marginRight="16dp"
-                    android:text="Favs Only  "
-                    android:background="@null"
-                    android:textAppearance="?attr/actionMenuTextAppearance"
-                    android:layout_gravity="center"
-                    android:layout_weight="2"/>
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>
 
-    <RelativeLayout
+    <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewpager"
+            app:layout_anchor="@id/tabs"
+            app:layout_anchorGravity="bottom"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            >
-
-    <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/grid_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@color/colorBackGround"
-           />
-
-    <com.futuremind.recyclerviewfastscroll.FastScroller
-            android:id="@+id/fastscroll"
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            app:fastscroll__handleColor="@color/fastScrollHandleColor"
-            app:fastscroll__bubbleColor="@color/fastScrollBubbleColor"
-            android:layout_alignParentEnd="true"/>
-
-    </RelativeLayout>
+            />
 </LinearLayout>

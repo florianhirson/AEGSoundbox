@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package baguette.mc.french.aegsoundbox
+package baguette.mc.french.aegsoundbox.utils
 
-import baguette.mc.french.aegsoundbox.FavStore.Companion.instance
+import baguette.mc.french.aegsoundbox.utils.FavStore.Companion.instance
 
 class Sound(var name: String, var resourceId: Int, var pictureId: Int) {
     private var favorite: Boolean

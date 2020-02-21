@@ -1,4 +1,4 @@
-package baguette.mc.french.aegsoundbox
+package baguette.mc.french.aegsoundbox.utils
 
 import android.content.SharedPreferences
 
@@ -26,7 +26,8 @@ class FavStore private constructor(private val prefs: SharedPreferences) {
             private set
 
         fun init(prefs: SharedPreferences) {
-            instance = FavStore(prefs)
+            instance =
+                FavStore(prefs)
         }
 
     }

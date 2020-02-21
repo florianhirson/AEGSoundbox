@@ -11,58 +11,59 @@
             android:background="@color/colorPrimary"
             android:minHeight="?android:attr/actionBarSize">
 
-        <LinearLayout
+
+        <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:layout_height="wrap_content"
+                android:hint="Search sounds by name"
+                app:endIconMode="clear_text">
 
-            <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="0dp"
+            <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Search sounds by name"
-                    android:layout_weight="3"
-                    app:endIconMode="clear_text">
+                    android:id="@+id/txtSearchSounds"/>
 
-                <com.google.android.material.textfield.TextInputEditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/txtSearchSounds"/>
-
-            </com.google.android.material.textfield.TextInputLayout>
-
-        <androidx.appcompat.widget.SwitchCompat
-                android:id="@+id/fav_switch"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:layout_marginEnd="16dp"
-                android:layout_marginRight="16dp"
-                android:text="Favs Only  "
-                android:background="@null"
-                android:textAppearance="?attr/actionMenuTextAppearance"
-                android:layout_gravity="center"
-                android:layout_weight="2"/>
-        </LinearLayout>
+        </com.google.android.material.textfield.TextInputLayout>
     </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.tabs.TabLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/tabLayout">
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="ALL SOUNDS"/>
+
+        <com.google.android.material.tabs.TabItem
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:text="FAVORITES"/>
+
+    </com.google.android.material.tabs.TabLayout>
 
     <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-    <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/grid_view"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-           />
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/grid_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackGround"
+                />
 
-    <com.futuremind.recyclerviewfastscroll.FastScroller
-            android:id="@+id/fastscroll"
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            app:fastscroll__handleColor="#8f93d1"
-            app:fastscroll__bubbleColor="#5e64ce"
-            android:layout_alignParentEnd="true"/>
+        <com.futuremind.recyclerviewfastscroll.FastScroller
+                android:id="@+id/fastscroll"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                app:fastscroll__handleColor="@color/fastScrollHandleColor"
+                app:fastscroll__bubbleColor="@color/fastScrollBubbleColor"
+                android:layout_alignParentEnd="true"/>
 
     </RelativeLayout>
 </LinearLayout>

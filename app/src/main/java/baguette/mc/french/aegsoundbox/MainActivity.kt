@@ -2,23 +2,20 @@ package baguette.mc.french.aegsoundbox
 
 import android.content.Context
 import android.os.Bundle
-import com.google.android.material.textfield.TextInputEditText
-import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.RecyclerView
-import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import androidx.appcompat.widget.SwitchCompat
-import androidx.appcompat.widget.Toolbar
 import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
-import android.widget.EditText
-import com.futuremind.recyclerviewfastscroll.FastScroller
-import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.AbsListView
-import androidx.core.app.ComponentActivity.ExtraData
-import androidx.core.content.ContextCompat.getSystemService
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-
+import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
+import androidx.recyclerview.widget.RecyclerView
+import androidx.recyclerview.widget.StaggeredGridLayoutManager
+import androidx.recyclerview.widget.StaggeredGridLayoutManager.GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS
+import androidx.viewpager2.widget.ViewPager2
+import com.futuremind.recyclerviewfastscroll.FastScroller
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayout.OnTabSelectedListener
+import com.google.android.material.textfield.TextInputEditText
 
 
 class MainActivity : AppCompatActivity() {
@@ -40,11 +37,16 @@ class MainActivity : AppCompatActivity() {
         FavStore.init(getPreferences(Context.MODE_PRIVATE))
 
 
+
         grid.layoutManager = StaggeredGridLayoutManager(
             resources.getInteger(R.integer.num_cols),
             StaggeredGridLayoutManager.VERTICAL
         )
+
+        (grid.layoutManager as StaggeredGridLayoutManager).gapStrategy = GAP_HANDLING_MOVE_ITEMS_BETWEEN_SPANS
+
         grid.adapter = SoundAdapterK(SoundStore.getAllSounds(this), this@MainActivity)
+
 
         grid.addOnScrollListener(object : RecyclerView.OnScrollListener() {
 
@@ -71,23 +73,34 @@ class MainActivity : AppCompatActivity() {
         val fastScroller = findViewById<View>(R.id.fastscroll) as FastScroller
         fastScroller.setRecyclerView(grid)
 
-        val favSwitch = findViewById<View>(R.id.fav_switch) as SwitchCompat
-        favSwitch.isChecked = FavStore.instance?.showFavorites!!
+        val tabLayout = findViewById<View>(R.id.tabLayout) as TabLayout
 
-        if (favSwitch.isChecked) {
+        if(FavStore.instance?.showFavorites!!) {
+            tabLayout.getTabAt(1)?.select()
+        }
+
+
+        if (tabLayout.selectedTabPosition == 1) {
             (grid.adapter as SoundAdapterK).onlyShowFavorites()
         } else {
-            (grid.adapter as SoundAdapterK).showAllSounds(this@MainActivity)
+            (
+                    grid.adapter as SoundAdapterK).showAllSounds(this@MainActivity)
         }
-        favSwitch.setOnCheckedChangeListener { buttonView, isChecked ->
-            txtSearchSounds.clearFocus()
-            if (isChecked) {
-                (grid.adapter as SoundAdapterK).onlyShowFavorites()
-            } else {
-                (grid.adapter as SoundAdapterK).showAllSounds(this@MainActivity)
+
+        tabLayout.addOnTabSelectedListener(object : OnTabSelectedListener {
+            override fun onTabSelected(tab: TabLayout.Tab) {
+                txtSearchSounds.clearFocus()
+                if (tabLayout.selectedTabPosition == 1) {
+                    (grid.adapter as SoundAdapterK).onlyShowFavorites()
+                } else {
+                    (grid.adapter as SoundAdapterK).showAllSounds(this@MainActivity)
+                }
+                FavStore.instance?.showFavorites = tabLayout.selectedTabPosition == 1
             }
-            FavStore.instance?.showFavorites = isChecked
-        }
+
+            override fun onTabUnselected(tab: TabLayout.Tab) {}
+            override fun onTabReselected(tab: TabLayout.Tab) {}
+        })
 
 
 

@@ -10,6 +10,7 @@ import android.view.animation.LinearInterpolator
 import android.view.animation.RotateAnimation
 import android.widget.*
 import androidx.cardview.widget.CardView
+import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import baguette.mc.french.aegsoundbox.R.drawable
 import com.futuremind.recyclerviewfastscroll.SectionTitleProvider
@@ -48,8 +49,10 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
         {
             if (!sound.getFavorite())
             {
-                notifyItemRemoved(soundsFiltered.indexOf(sound))
+                val position = soundsFiltered.indexOf(sound)
                 soundsFiltered.remove(sound)
+                notifyItemRemoved(position)
+                notifyItemRangeChanged(position, soundsFiltered.size)
             }
         }
     }
@@ -105,6 +108,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
                 // Remove from the list.
                 soundsFiltered.remove(soundsFiltered[holder.adapterPosition])
                 notifyItemRemoved(holder.adapterPosition)
+                notifyItemRangeChanged(position, soundsFiltered.size)
             }
         }
         GlideApp.with(context)
@@ -118,7 +122,7 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
         var imageView:ImageView = v.findViewById(R.id.imageView) as ImageView
         private var accentColor:Int = 0
         init{
-            accentColor = itemView.context.resources.getColor(R.color.colorAccent)
+            accentColor = ContextCompat.getColor(itemView.context, R.color.colorAccent)
         }
         fun setNormalColors() {
             (itemView as CardView).setCardBackgroundColor(accentColor)
@@ -128,9 +132,8 @@ class SoundAdapterK(soundArray:ArrayList<Sound>, context: Context) :
             imageView.clearAnimation()
         }
         fun setPlayingColors() {
-            (itemView as CardView).setCardBackgroundColor(Color.WHITE)
-            title.setTextColor(accentColor)
-            favButton.setColorFilter(accentColor)
+            (itemView as CardView).setCardBackgroundColor(ContextCompat.getColor(itemView.context, R.color.colorImagePlayingSound))
+            title.setTextColor(ContextCompat.getColor(itemView.context, R.color.colorTextPlayingSound))
 
             val rotateAnimation =  RotateAnimation(0.0F, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f)
 
